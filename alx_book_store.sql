@@ -16,8 +16,8 @@ CREATE TABLE Books (
 );
 
 CREATE TABLE Customers (
-    customers_id INT AUTO_INCREMENT PRIMARY KEY,
-    customers_name VARCHAR(215) NOT NULL,
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215),
     address TEXT
 );
